@@ -30,7 +30,7 @@ const handleSubmit = () => {
       <div class="flex justify-between items-center">
         <div class="flex items-center">
           <RouterLink :to="{ name: 'inicio' }" class="flex items-center">
-            <img class="w-32" src="favicon.svg" alt="logotipo" />
+            <img class="w-32" src="@/assets/favicon.svg" alt="logotipo" />
             <h1 class="text-5xl font-extrabold text-white leading-tight ml-4">
               Mezcla Mágica
             </h1>
