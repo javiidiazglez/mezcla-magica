@@ -15,7 +15,7 @@ export default {
             <div>
               <img src="../assets/perezoso.webp" class="h-auto max-w-sm rounded-full" alt="Javi">
             </div>
-            <div class="justify-centerflex flex-wrap mx-10">
+            <div class="flex flex-wrap mx-10">
               <p><span class="font-bold text-4xl">Javi</span></p>
               <p>"Mi pasión por la Informática me ha llevado a trabajar en proyectos personales que me han permitido
                 desarrollar y perfeccionar mis habilidades.</p>
@@ -27,6 +27,7 @@ export default {
                   alt="linkedin"></a>
               <a class="m-5" href="https://github.com/javiidiazglez"><img src="@/assets/github-black.svg"
                   alt="github"></a>
+              <a class="m-5" href="https://t.me/javiidiazglez"><img src="@/assets/telegram-black.svg" alt="telegram"></a>
             </div>
           </div>
         </div>

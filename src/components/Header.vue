@@ -55,7 +55,7 @@ const handleSubmit = () => {
           <label class="block uppercase font-extrabold text-lg" for="ingrediente">Nombre o
             Ingredientes</label>
           <input type="text" id="ingrediente" class="p-3 w-full rounded-lg focus:outline-none"
-            placeholder="Nombre o Ingrediente: Ej. Vodka, Tequila, etc" v-model="store.busqueda.nombre" />
+            placeholder="Nombre o Ingrediente: Ej. Vodka, Tequila, Lemon, etc." v-model="store.busqueda.nombre" />
         </div>
         <div class="space-y-4">
           <label class="block uppercase font-extrabold text-lg" for="categoria">Categoría</label>
