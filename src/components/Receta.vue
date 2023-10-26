@@ -17,7 +17,8 @@ const props = defineProps({
     </div>
     <div class="p-5">
       <h2 class="text-2xl truncate font-extrabold">{{ receta.strDrink }}</h2>
-      <button type="button" class="bg-orange-400 hover:bg-orange-500 mt-5 w-full p-3 font-bold text-white text-lg"
+      <button type="button"
+        class="bg-green-600 hover:bg-green-500 mt-5 w-full p-3 rounded-lg font-bold text-white text-lg"
         @click="bebidas.seleccionarBebida(receta.idDrink)">
         Ver Receta
       </button>

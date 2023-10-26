@@ -25,13 +25,13 @@ const notificaiones = useNotificacionStore();
                 <p class="text-sm font-medium text-gray-900 uppercase">
                   Notificación
                 </p>
-                <p class="mt-1 text-sm text-gray-500">
+                <p class="mt-1 text-sm text-gray-800">
                   {{ notificaiones.texto }}
                 </p>
               </div>
               <div class="ml-4 flex flex-shrink-0">
                 <button type="button" @click="show = notificaiones.mostrar = false"
-                  class="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                  class="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                   <span class="sr-only">Close</span>
                   <XMarkIcon class="h-5 w-5" aria-hidden="true" />
                 </button>

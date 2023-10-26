@@ -23,7 +23,7 @@ const formatearIngredientes = () => {
       const cantidad = bebidas.receta[`strMeasure${i}`];
 
       const ingredienteCantidad = document.createElement("P");
-      ingredienteCantidad.classList.add("text-lg", "text-gray-500");
+      ingredienteCantidad.classList.add("text-lg", "text-gray-800");
       ingredienteCantidad.textContent = `${ingrediente} - ${cantidad}`;
       ingredienteDiv.appendChild(ingredienteCantidad);
     }
@@ -37,7 +37,7 @@ const formatearIngredientes = () => {
     <Dialog as="div" class="relative z-10" @close="modal.handleClickModal()">
       <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0" enter-to="opacity-100"
         leave="ease-in duration-200" leave-from="opacity-100" leave-to="opacity-0">
-        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+        <div class="fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity" />
       </TransitionChild>
       <div class="fixed inset-0 z-10 overflow-y-auto">
         <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
@@ -54,26 +54,26 @@ const formatearIngredientes = () => {
                     {{ bebidas.receta.strDrink }}
                   </DialogTitle>
                   <img :src="bebidas.receta.strDrinkThumb" :alt="'Imagen de:' + bebidas.receta.strDrink" />
-                  <DialogTitle as="h3" class="text-gray-900 text-4xl font-extrabold my-5">
-                    Ingredientes y cantidades
+                  <DialogTitle as="h3" class="text-gray-800 text-4xl font-extrabold my-5">
+                    Ingredientes y Cantidades
                   </DialogTitle>
                   <div v-html="formatearIngredientes().outerHTML"></div>
-                  <DialogTitle as="h3" class="text-gray-900 text-4xl font-extrabold my-5">
+                  <DialogTitle as="h3" class="text-gray-800 text-4xl font-extrabold my-5">
                     Instrucciones
                   </DialogTitle>
-                  <p class="text-lg text-gray-500">
+                  <p class="text-lg text-gray-900">
                     {{ bebidas.receta.strInstructions }}
                   </p>
                 </div>
               </div>
               <div class="mt-5 sm:mt-6 flex justify-between gap-4">
                 <button type="button"
-                  class="w-full rounded bg-gray-600 p-3 font-bold uppercase text-white shadow hover:bg-gray-500"
+                  class="w-full rounded bg-gray-800 p-3 font-bold uppercase text-white shadow hover:bg-gray-700"
                   @click="modal.handleClickModal()">
                   Cerrar
                 </button>
                 <button type="button"
-                  class="w-full rounded bg-orange-600 p-3 font-bold uppercase text-white shadow hover:bg-orange-500"
+                  class="w-full rounded bg-yellow-600 p-3 font-bold uppercase text-white shadow hover:bg-yellow-500"
                   @click="favoritos.handleClickFavorito()">
                   {{ modal.textoBotom }}
                 </button>
