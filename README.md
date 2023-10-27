@@ -23,6 +23,7 @@ Mezcla Mágica está hecho con el fin de visualizar **Cocktails** por ingredient
 
 ## Tecnologías utilizadas:
 - **Vue3**
+- **Pinia**
 - **Tailwindcss**
 - **Vite**
 - **Netlify**
@@ -34,7 +35,6 @@ Mezcla Mágica está hecho con el fin de visualizar **Cocktails** por ingredient
 - **@heroicons/vue**
 - **autoprefixer**
 - **axios**
-- **pinia**
 
 ## Recommendaciones
 - [VSCode](https://code.visualstudio.com/)

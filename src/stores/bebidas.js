@@ -4,23 +4,6 @@ import APIService from '../services/APIService'
 import { useModalStore } from './modal'
 
 /**
- * Store para gestionar las bebidas.
- *
- * @typedef {Object} BebidasStore
- * @property {Array} categorias - Lista de categorías de bebidas.
- * @property {Object} busqueda - Objeto que contiene información de búsqueda de recetas.
- * @property {string} busqueda.nombre - Nombre de la bebida a buscar.
- * @property {string} busqueda.categoria - Categoría de la bebida a buscar.
- * @property {Array} recetas - Lista de recetas de bebidas.
- * @property {Object} receta - Receta de bebida seleccionada.
- * @property {boolean} noRecetas - Indica si no hay recetas disponibles.
- *
- * @property {Function} obtenerRecetas - Función para obtener recetas de bebidas.
- * @property {Function} seleccionarBebida - Función para seleccionar una bebida y mostrar su receta.
- */
-
-
-/**
  * Define el store 'bebidas' para gestionar las bebidas.
  *
  * @function
@@ -40,7 +23,7 @@ export const useBebidasStore = defineStore('bebidas', () => {
   const receta = ref({})
 
    /**
-   * Ejecuta una función cuando el componente es montado.
+   * Ejecuta una función cuando el componente está montado.
    * 
    */
   onMounted(async () => {

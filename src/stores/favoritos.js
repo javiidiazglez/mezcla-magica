@@ -6,16 +6,6 @@ import { useModalStore } from './modal'
 import { useNotificacionStore } from './notificaciones'
 
 /**
- * Store para gestionar las bebidas favoritas.
- *
- * @typedef {Object} FavoritosStore
- * @property {Function} handleClickFavorito - Función para manejar la acción de agregar o eliminar una bebida de favoritos.
- * @property {Array} favoritos - Lista de bebidas favoritas.
- * @property {Function} existeFavorito - Función para verificar si una bebida ya está en favoritos.
- * @property {boolean} noFavoritos - Indica si no hay bebidas en la lista de favoritos.
- */
-
-/**
  * Define el store 'favoritos' para gestionar las bebidas favoritas.
  *
  * @function
