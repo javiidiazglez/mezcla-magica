@@ -10,10 +10,16 @@
 ## ¿Qué es Mezcla Mágica?
 Mezcla Mágica está hecho con el fin de visualizar **Cocktails** por ingredientes y categoría en la que se muestra la imagen y la receta, así como sus instrucciones. 
 
-[Enlace al proyecto](https://mezclamagica.com)
+###
+| Página de despliegue:|
+| --- |
+| [Despliegue Mezcla Mágica](https://mezclamagica.com) |
 
 ### Funcionalidades:
-- Agregar y eliminar de favoritos.
+- Nombrar los ingredientes
+- Seleccionar categorías
+- Buscar recetas
+- Añadir/Eliminar Favoritos	
 
 ## Tecnologías utilizadas:
 - **Vue3**
