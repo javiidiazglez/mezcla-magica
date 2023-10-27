@@ -11,7 +11,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/:pathMatch(.*)*',
+      path: '/:catchAll(.*)',
       name: 'default',
       component: () => import('../views/404View.vue')
     },
